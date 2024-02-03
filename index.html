@@ -18,22 +18,34 @@
     <header>
       <!-- nav section -->
       <nav>
-        <a href="#">Shahidul Islam</a> <a href="#about-section">About</a>
-        <a href="#education-section">Education</a>
-        <a href="#skill-section">Skill</a>
-        <a href="#interest-section">Interest</a>
-        <a href="#project-section">project</a>
-        <a href="#contact-section">Contact</a>
+        <div class="nav">
+          <div>
+            <a href="#"><span>Shahidul Islam</span></a>
+          </div>
+          <div>
+            <a href="#about-section">About</a>
+            <a href="#education-section">Education</a>
+            <a href="#skill-section">Skill</a>
+            <a href="#interest-section">Interest</a>
+            <a href="#project-section">Project</a>
+            <a href="#feedback-section">Feedback</a>
+          </div>
+        </div>
       </nav>
     </header>
 
     <!-- Main Content Section -->
+
+    <!-- hero section  -->
     <section class="hero">
-      <p>Hi! I'm</p>
-      <h1>Shahidul Islam</h1>
-      <p>Competitive Programmer | Web Developer</p>
-      <button>Resume</button>
+      <div>
+        <p>Hi! I'm</p>
+        <h1>Shahidul Islam</h1>
+        <p>Competitive Programmer | Web Developer</p>
+        <a href=""><button>Resume</button></a>
+      </div>
     </section>
+    <hr />
 
     <!-- about section -->
     <section class="about" id="about-section">
@@ -42,12 +54,19 @@
         I'm Shahidul Islam, a passionate programmer and a lover of learning new
         things. I enjoy problem-solving, so I like to introduce myself as a
         competitive programmer. I have solved almost 2000+ problems and
-        participated in more than 120 online and onsite contests. Now, I'm
-        focusing on web development.
+        participated in more than 120 online and onsite contests. I participated
+        in the ICPC Dhaka Regional Onsite Contest 2023 and achieved a specialist
+        rank on Codeforces along with a 3* rating on CodeChef. Currently, I am
+        focusing on web development and have learned programming languages such
+        as C, C++, Java, and Python.
       </p>
+      <div class="detail-button">
+        <button>Details</button>
+      </div>
     </section>
+    <hr />
 
-    <!-- about section -->
+    <!-- education section -->
     <section class="education" id="education-section">
       <h2>My Education</h2>
       <table>
@@ -81,85 +100,102 @@
         </tbody>
       </table>
     </section>
+    <hr />
 
     <!-- skill section -->
     <section class="skill" id="skill-section">
       <h2>My skills</h2>
-      <ul>
-        <li>competitive programming</li>
-        <li>web development (HTML, CSS, JavaScript)</li>
-        <li>language</li>
-        <li>other language</li>
-      </ul>
+      <ol>
+        <li>
+          <h3>Problem Solving</h3>
+          <p>
+            I have solved almost 2000+ problems and participated in more than
+            120 online and onsite contests. I have achieved a specialist rank on
+            <a
+              href="https://codeforces.com/profile/ShahidulMiraj"
+              class="codeforces"
+              target="_blank"
+              >Codeforces</a
+            >
+            along with a 3* rating on
+            <a
+              href="https://www.codechef.com/users/shahidulmiraj"
+              class="codechef"
+              target="_blank"
+              >CodeChef</a
+            >.....
+          </p>
+          <a
+            href="https://www.stopstalk.com/user/profile/shahidulmiraj"
+            class="btn"
+            target="_blank"
+            ><button>More</button></a
+          >
+        </li>
+        <li>
+          <h3>Web Development</h3>
+          <p>I have a basic knowledge about HTML, CSS, JavaScript</p>
+        </li>
+        <li>
+          <h3>Programming Languague</h3>
+          <p>I am familiar with some other programming language</p>
+          <ul class="other-lang">
+            <li>C</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>Python</li>
+          </ul>
+        </li>
+      </ol>
     </section>
-
+    <hr />
     <!-- interest section -->
     <section class="interest" id="interest-section">
       <h2>My Interest</h2>
+      <ul class="interest-list">
+        <li>Learing  new things and exploring the unknown.</li>
+        <li>Solving complex problems in competitive programming.</li>
+        <li>Reading  books from different genres.</li>
+      </ul>
     </section>
+    <hr />
 
     <!-- project section -->
     <section class="project" id="project-section">
       <h2>My Project</h2>
-      <p>Here are some of my projects.</p>
-      <a href="https://shahidulmiraj.github.io/Omni-food/">
-        <img
-          src="./Resources/OmniFood.png"
-          alt="A food-delivery project photo"
-          width="100px"
-          height="100px"
-      /></a>
-      <a href="https://shahidulmiraj.github.io/LogInPage/"
-        ><img
-          src="./Resources/loginpage.png"
-          alt="A log in page photo"
-          width="100px"
-          height="100px"
-        />
-      </a>
-      <a href="#">
-        <img
-          src="./Resources/"
-          alt="A portfolio website"
-          width="100px"
-          height="100px"
-        />
-      </a>
+      <p>Here are some of my projects:</p>
+      <div class="project-name">
+        <div>
+          <a href="https://shahidulmiraj.github.io/Omni-food/" target="_blank">
+            <h4>A demo food delivery site</h4>
+            <img
+              src="./Resources/OmniFood.png"
+              alt="A food-delivery project photo"
+          /></a>
+        </div>
+        <div>
+          <a href="https://shahidulmiraj.github.io/LogInPage/" target="_blank">
+            <h4>A demo Log In page</h4>
+            <img src="./Resources/loginpage.png" alt="A log in page photo" />
+          </a>
+        </div>
+        <div>
+          <a href="#" target="_blank">
+            <h4>A demo portfolio site</h4>
+            <img src="./Resources/portfolio.png" alt="A portfolio website" />
+          </a>
+        </div>
+      </div>
     </section>
-
-    <!-- contact section -->
-    <section class="contact" id="contact-section">
-      <h2>Reach Out To Me</h2>
-      <a href="https://www.linkedin.com/in/shahidulmiraj/"
-        ><img
-          src="./Resources/LiLogo.png"
-          alt="linkedin"
-          width="100px"
-          height="100px"
-      /></a>
-      <a href="https://github.com/shahidulmiraj"
-        ><img
-          src="./Resources/githubLogo.png"
-          alt="github"
-          width="100px"
-          height="100px"
-      /></a>
-      <a href="https://www.facebook.com/shahidulmiraj1/"
-        ><img
-          src="./Resources/facebook.png"
-          alt="facebook"
-          width="100px"
-          height="100px"
-      /></a>
-    </section>
+    <hr />
 
     <!-- feedback section -->
-    <section class="">
+    <section class="feedback" id="feedback-section">
       <h2>Give me some feedback</h2>
       <form action="">
-        <label for="name">Name:</label>
+        <label for="name">Name:</label><br />
         <input type="text" name="name" placeholder="Your Name" required /><br />
-        <label for="email">Email:</label>
+        <label for="email">Email:</label><br />
         <input
           type="text"
           name="email"
@@ -177,9 +213,33 @@
         <button type="submit">Submit</button>
       </form>
     </section>
+    <hr />
 
     <!-- footer section -->
     <footer class="footer" id="footer-section">
+      <div class="contact">
+        <a href="https://www.linkedin.com/in/shahidulmiraj/" target="_blank"
+          ><img
+            src="./Resources/LiLogo.png"
+            alt="linkedin"
+            width="30px"
+            height="30px"
+        /></a>
+        <a href="https://github.com/shahidulmiraj" target="_blank"
+          ><img
+            src="./Resources/githubLogo.png"
+            alt="github"
+            width="30px"
+            height="30px"
+        /></a>
+        <a href="https://www.facebook.com/shahidulmiraj1/" target="_blank"
+          ><img
+            src="./Resources/facebook.png"
+            alt="facebook"
+            width="30px"
+            height="30px"
+        /></a>
+      </div>
       <p>&copy;2024 Shahidul Islam. All Rights Reserved.</p>
     </footer>
   </body>

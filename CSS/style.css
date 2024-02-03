@@ -1,11 +1,234 @@
-
-
+/* for all element in the body */
+* {
+  margin: 0%;
+  padding: 0%;
+}
 body {
-  background-color: #F4EDE3;
+  margin-top: 10px;
+  background-color: #f4ede3;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 75px;
+  color: rgb(252, 137, 36);
+}
+h2 {
+  font-size: 40px;
+  margin: 5% 0;
+  text-align: center;
+  position: relative;
+}
+h3,
+ol{
+  font-size: 30px;
+  padding: 50px 15px 20px 0;
+}
+h4 {
+  color: black;
+}
+p {
   font-size: 25px;
 }
-section{
-  margin-top: 200px;
+a {
+  text-decoration: none;
+  /* color: black; */
 }
-nav{
+button {
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 6px 10px;
+  background-color: rgb(252, 137, 36);
+  color: white;
+  border-radius: 5px;
+  border-color: rgb(252, 137, 36);
+  cursor: pointer;
+}
+hr {
+  border: 1px solid rgba(236, 148, 71, 0.423);
+}
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* group  */
+
+.hero,
+.about,
+.education,
+.skill,
+.interest,
+.project,
+.footer,
+.feedback {
+  padding: 20px 10%;
+  margin-bottom: 30px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* header section  */
+
+/* nav section  */
+nav {
+  padding: 15px 8%;
+  background-color: #f9ebd6;
+  box-shadow: 0 10px 15px -6px rgb(249, 193, 97);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+nav a {
+  padding: 5px;
+  text-decoration: none;
+  color: rgb(154, 73, 73);
+}
+
+nav span {
+  color: rgb(252, 137, 36);
+  font-style: italic;
+  font-size: 30px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* hero section */
+.hero {
+  padding: 10% 10% 5% 10%;
+}
+.hero p {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* about me section*/
+
+.about .detail-button {
+  margin: 40px 0;
+  text-align: center;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* education section  */
+.education {
+  padding-bottom:  6%;
+}
+
+table {
+  margin: auto auto;
+  width: 85%;
+}
+
+/* for table border  */
+table,
+th,
+td {
+  font-size: 25px;
+  text-align: center;
+  border: 3px solid rgba(255, 163, 83, 0.627);
+  padding: 6px 15px;
+  border-collapse: collapse;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* skill section  */
+.skill h2 {
+  margin: 20px 0 0 0;
+}
+.other-lang {
+  list-style-type: disc;
+  padding-left: 6%;
+  font-size: 20px;
+}
+.skill p , .btn{
+  margin-left: 2%;
+}
+.codeforces {
+  color: rgb(11, 199, 199);
+}
+.codechef{
+  color: #3366CC;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* interest section  */
+
+.interest-list {
+  font-size: 25px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* project section  */
+.project{
+  padding: 20px 5% 10% 5%;
+}
+.project .project-name{
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.project div{
+  width: 32%;
+}
+.project img{
+  width: 100%;
+  height: 120%;
+  border: 2px solid rgb(252, 137, 36);;
+}
+h4{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* feedback section  */
+form {
+  padding: 0 15%;
+}
+.feedback label{
+  font-size: 25px;
+  line-height: 2;
+}
+
+.feedback input, textarea{
+  font-size: 20px;
+  width: 100%;
+  padding: 7px;
+  border: 2px  solid rgba(252, 137, 36, 0.586);
+  margin-bottom: 7px;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* footer section */
+
+.footer p{
+  text-align: center;
+}
+
+.footer {
+  background-color: #fae6c7;
+}
+
+/* contact section  */
+
+.contact {
+  text-align: center;
+  padding: 10px 0;
+}
+.contact a {
+  padding: 0 5px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+h2::after {
+  content: "";
+  display: block;
+  width: 140px; 
+  height: 3px; 
+  background-color: rgb(252, 137, 36);
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
