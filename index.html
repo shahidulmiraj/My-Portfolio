@@ -10,8 +10,10 @@
     <meta name="author" content="Shahidul Islam" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./CSS/style.css" />
+    <meta name="theme-color" content="#317EFB" />
+    <link rel="icon" type="image/x-icon" href="./Resources/favicon.ico" />
 
-    <title>About me</title>
+    <title>ShahidulMiraj</title>
   </head>
   <body>
     <!-- Header Section -->
@@ -125,12 +127,7 @@
               >CodeChef</a
             >.....
           </p>
-          <a
-            href="https://www.stopstalk.com/user/profile/shahidulmiraj"
-            class="btn"
-            target="_blank"
-            ><button>More</button></a
-          >
+          <button>More</button>
         </li>
         <li>
           <h3>Web Development</h3>
@@ -153,9 +150,9 @@
     <section class="interest" id="interest-section">
       <h2>My Interest</h2>
       <ul class="interest-list">
-        <li>Learing  new things and exploring the unknown.</li>
+        <li>Learing new things and exploring the unknown.</li>
         <li>Solving complex problems in competitive programming.</li>
-        <li>Reading  books from different genres.</li>
+        <li>Reading books from different genres.</li>
       </ul>
     </section>
     <hr />
@@ -163,7 +160,7 @@
     <!-- project section -->
     <section class="project" id="project-section">
       <h2>My Project</h2>
-      <p>Here are some of my projects:</p>
+      <h3>Here are some of my projects:</h3>
       <div class="project-name">
         <div>
           <a href="https://shahidulmiraj.github.io/Omni-food/" target="_blank">
@@ -180,7 +177,10 @@
           </a>
         </div>
         <div>
-          <a href="#" target="_blank">
+          <a
+            href="https://shahidulmiraj.github.io/My-Portfolio/"
+            target="_blank"
+          >
             <h4>A demo portfolio site</h4>
             <img src="./Resources/portfolio.png" alt="A portfolio website" />
           </a>
@@ -191,13 +191,14 @@
 
     <!-- feedback section -->
     <section class="feedback" id="feedback-section">
-      <h2>Give me some feedback</h2>
+      <h2>Give Me Some Feedback</h2>
       <form action="">
         <label for="name">Name:</label><br />
-        <input type="text" name="name" placeholder="Your Name" required /><br />
+        <input type="text" id= "name" name="name" placeholder="Your Name" required /><br />
         <label for="email">Email:</label><br />
         <input
-          type="text"
+          type="email"
+          id="email"
           name="email"
           placeholder="Your Email Address"
           required
@@ -205,12 +206,13 @@
         <label for="feedback">Write something:</label> <br />
         <textarea
           name="feedback"
+          id="feedback"
           placeholder="Give Me Some Feedback"
           rows="5"
           cols="50"
         ></textarea
         ><br />
-        <button type="submit">Submit</button>
+        <button type="submit">Send</button>
       </form>
     </section>
     <hr />

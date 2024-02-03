@@ -20,7 +20,7 @@ h2 {
   position: relative;
 }
 h3,
-ol{
+ol {
   font-size: 30px;
   padding: 50px 15px 20px 0;
 }
@@ -67,7 +67,8 @@ hr {
 
 /* nav section  */
 nav {
-  padding: 15px 8%;
+  margin: 0 10% ;
+  padding: 1% 1%;
   background-color: #f9ebd6;
   box-shadow: 0 10px 15px -6px rgb(249, 193, 97);
 }
@@ -79,11 +80,11 @@ nav {
 nav a {
   padding: 5px;
   text-decoration: none;
-  color: rgb(154, 73, 73);
+  color: rgb(127, 74, 9);
 }
 
 nav span {
-  color: rgb(252, 137, 36);
+  color: rgb(231, 109, 2);
   font-style: italic;
   font-size: 30px;
 }
@@ -109,7 +110,7 @@ nav span {
 /* ------------------------------------------------------------------------------------------------------------------------- */
 /* education section  */
 .education {
-  padding-bottom:  6%;
+  padding-bottom: 6%;
 }
 
 table {
@@ -138,14 +139,15 @@ td {
   padding-left: 6%;
   font-size: 20px;
 }
-.skill p , .btn{
+.skill p,
+.btn {
   margin-left: 2%;
 }
 .codeforces {
   color: rgb(11, 199, 199);
 }
-.codechef{
-  color: #3366CC;
+.codechef {
+  color: #3366cc;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------- */
@@ -157,25 +159,24 @@ td {
 
 /* ------------------------------------------------------------------------------------------------------------------------- */
 /* project section  */
-.project{
+.project {
   padding: 20px 5% 10% 5%;
 }
-.project .project-name{
+.project .project-name {
   margin-top: 50px;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  
 }
-.project div{
+.project div {
   width: 32%;
 }
-.project img{
+.project img {
   width: 100%;
   height: 120%;
-  border: 2px solid rgb(252, 137, 36);;
+  border: 2px solid rgb(252, 137, 36);
 }
-h4{
+h4 {
   text-align: center;
   margin-bottom: 20px;
 }
@@ -185,24 +186,30 @@ h4{
 form {
   padding: 0 15%;
 }
-.feedback label{
+.feedback label {
   font-size: 25px;
   line-height: 2;
 }
 
-.feedback input, textarea{
+.feedback input,
+textarea {
   font-size: 20px;
   width: 100%;
   padding: 7px;
-  border: 2px  solid rgba(252, 137, 36, 0.586);
+  border: 2px solid rgba(252, 137, 36, 0.586);
   margin-bottom: 7px;
 }
-
+.feedback button {
+  font-size: 1.5rem;
+  display: block;
+  margin: 1rem auto;
+  padding: 7px 13px;
+}
 
 /* ------------------------------------------------------------------------------------------------------------------------- */
 /* footer section */
 
-.footer p{
+.footer p {
   text-align: center;
 }
 
@@ -224,11 +231,11 @@ form {
 h2::after {
   content: "";
   display: block;
-  width: 140px; 
-  height: 3px; 
+  width: 140px;
+  height: 3px;
   background-color: rgb(252, 137, 36);
   position: absolute;
-  bottom: -10px;
+  bottom: -13px;
   left: 50%;
   transform: translateX(-50%);
 }
