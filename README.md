@@ -11,7 +11,7 @@ OR,
 1. Clone the repository
 
     ```sh
-    git clone https://github.com/saiful-70/omni-food.git
+    git clone https://github.com/shahidulmiraj/My-Portfolio.git
     ```
 
 2. Double click of __index.html__ to see output
